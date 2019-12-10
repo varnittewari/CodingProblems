@@ -2,15 +2,15 @@
 
 For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3. */
 
-public class solution {
+public class firstMissingPositive {
 
     public static void main(String[] args){
         int[] arg = {3,4,-1,-1};
-        int a = firstMissingPositive(arg);
+        int a = findMissingPositive(arg);
         System.out.println(a);
     }
 
-    public static int firstMissingPositive(int[] nums) {
+    public static int findMissingPositive(int[] nums) {
         if (nums.length==0)
             return 1;
         int n =nums.length;
