@@ -2,7 +2,7 @@
 public class longestSubstringWithKCharacters{
 
     public static void main(String[] args){
-        System.out.println(solution("abcba",2));
+        System.out.println(solution("world",8));
     }
 
     public static int solution(String s, int k){
