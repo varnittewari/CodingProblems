@@ -2,8 +2,8 @@ public class uniqueWaysToClimb{
 
     public static void main(String[] args){
         System.out.println(solution(4));
-        System.out.println(solution(4));
-        System.out.println(solution(4));
+        System.out.println(solution(0));
+        System.out.println(solution(8));
     }
 
     public static int solution(int n){
