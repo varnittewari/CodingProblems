@@ -1,10 +1,21 @@
+import java.util.*;
+
 /*Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, 
 and deserialize(s), which deserializes the string back into the tree. */
 
-public class codec {
+public class SerializeDeserialize {
 
     public static void main(String[] args){
         
+    }
+
+    public class TreeNode{
+        int val;
+        TreeNode left;
+        TreeNode right;
+        public TreeNode(int val){
+            this.val = val;
+        }
     }
 
     // Encodes a tree to a single string.
