@@ -2,10 +2,10 @@ public class decodeAlphabets{
 
     public static void main(String[] args){
         String str = "1111";
-        System.out.println(numDecodings(str));
+        System.out.println(numDecodingsAndStuff(str));
     }
 
-    public static int numDecodings(String s) {
+    public static int numDecodingsAndStuff(String s) {
         if (s == null || s.length() == 0) {
             return 0;
         }
